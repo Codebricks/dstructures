@@ -23,7 +23,7 @@ start=NULL;
 clrscr();
 do
 {
-printf("ENTER YOUR CHOICE::\n");
+printf("ENTER YOUR CHOICE:\n");
 printf("Enter 1 to insert at begining\n");
 printf("Enter 2 to insert after a given element\n");
 printf("Enter 3 to insert at end\n");
@@ -32,7 +32,7 @@ printf("Enter 5 to reverse the current linked list\n");
 scanf("%d",&a);
 if(a==1)
 {
-printf("Enter the element\n");
+printf("Enter the element: \n");
 scanf("%d",&info);
 np=create_new_node(info);
 insertbeg(np);
