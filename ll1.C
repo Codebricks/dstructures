@@ -23,7 +23,7 @@ start=NULL;
 clrscr();
 do
 {
-printf("ENTER YOUR CHOICE:\n");
+printf("ENTER YOUR CHOICE::\n");
 printf("Enter 1 to insert at begining\n");
 printf("Enter 2 to insert after a given element\n");
 printf("Enter 3 to insert at end\n");
